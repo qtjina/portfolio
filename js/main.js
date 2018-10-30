@@ -40,7 +40,7 @@ $(function(){
 
 	$(window).on('scroll', function(){
 		var win_scroll_top = $(window).scrollTop();
-		var point = [90, 90, 75, 60, 60, 90];
+		var point = [90, 90, 75, 60, 55, 90];
 		
 		// #skill 섹션에 도달하면 그래프 애니메이션 시작
 		if(win_scroll_top >= about_top){
